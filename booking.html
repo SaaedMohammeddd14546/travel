@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tickets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Book Your Ticket</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book Tickets</a></li>
+                <li><a href="tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2><i>Ticket Booking Form</i></h2>
+        <form id="bookingForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="paris" data-cost="250">Paris - $250 per ticket</option>
+                <option value="rome" data-cost="150">Rome - $150 per ticket</option>
+                <option value="tokyo" data-cost="300">Tokyo - $300 per ticket</option>
+                <option value="cairo" data-cost="100">Cairo - $100 per ticket</option>
+            </select>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+
+            <!-- Total Cost Display -->
+            <div id="totalCostDisplay">
+                <p><strong>Total Cost:</strong> $<span id="totalCost">0</span></p>
+            </div>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <div id="bookingResult"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Blog</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+
+
+    <!-- <img src="ticket.png" alt="ticket" width="400"> -->
+</body>
+
+</html>

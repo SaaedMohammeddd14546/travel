@@ -1,0 +1,137 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e0;
+    color: #030101;
+  }
+  
+  /* تنسيق الرأس */
+  header {
+    background-color: #d7dee9;
+    color: rgb(8, 15, 18);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* تنسيق التنقل */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 137, 137);
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #34db63;
+    color: rgb(246, 242, 242);
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #075320;
+  }
+  
+  #totalCostDisplay {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #totalCostDisplay strong {
+    color: #3498db;
+  }
+  /* Logo Styling */
+.logo {
+  max-width: 150px; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Align with other elements */
+  margin-right: 20px; /* Add space around the logo */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #3498db;
+}
+
+.logo {
+  font-size: 1.8em;
+  color: #3498db;
+  font-weight: bold;
+}
+
+em {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #e74c3c;
+}
+
+  
